@@ -1,0 +1,19 @@
+@mixin padding($x,$y){
+    padding:$x,$y
+}
+
+
+.button{
+@include padding(15px,32px);
+background-color: green;
+color:white;
+display:inline-block;
+font-size: 14px;
+border-radius:5px;
+    
+}
+
+.b1{
+    @include padding(10px,20px)
+    
+}
